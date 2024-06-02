@@ -3,91 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Landing Page</title>
+    <title>Gymnasium Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Creative Design Studio</h1>
-            <ul>
+            <div class="logo">
+                <h1>Gymnasium</h1>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#trainers">Trainers</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="cta">
+                <a href="#join" class="cta-button">Join Now</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <section id="hero">
-            <div class="hero-text">
-                <h2>Innovative Solutions for Your Business</h2>
-                <p>Transforming ideas into reality with cutting-edge technology and design.</p>
-                <a href="#contact" class="cta-button">Get Started</a>
-            </div>
-        </section>
-        <section id="about">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>We are a creative design studio with a passion for innovation and excellence. Our team of experts is dedicated to delivering top-notch services that exceed your expectations.</p>
-            </div>
-        </section>
-        <section id="services">
-            <div class="container">
-                <h2>Our Services</h2>
-                <div class="services-grid">
-                    <div class="service">
-                        <h3>Web Development</h3>
-                        <p>Building responsive and high-performing websites tailored to your business needs.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Graphic Design</h3>
-                        <p>Creating visually stunning graphics that capture the essence of your brand.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Digital Marketing</h3>
-                        <p>Implementing strategic marketing campaigns to boost your online presence and engagement.</p>
-                    </div>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Gymnasium</h2>
+            <p>Your journey to a healthier life starts here. Join us to transform your body and mind.</p>
+            <a href="#join" class="hero-button">Get Started</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Gymnasium is a state-of-the-art fitness center that provides a wide range of workout options and personalized training programs to help you achieve your fitness goals.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Personal Training</h3>
+                    <p>Work one-on-one with our experienced trainers to develop a personalized fitness plan.</p>
+                </div>
+                <div class="service">
+                    <h3>Group Classes</h3>
+                    <p>Join our dynamic group classes and get motivated by the energy of others.</p>
+                </div>
+                <div class="service">
+                    <h3>Nutrition Advice</h3>
+                    <p>Receive expert nutritional guidance to complement your fitness regime.</p>
                 </div>
             </div>
-        </section>
-        <section id="portfolio">
-            <div class="container">
-                <h2>Our Portfolio</h2>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <img src="project1.jpg" alt="Project 1">
-                        <h4>Project One</h4>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="project2.jpg" alt="Project 2">
-                        <h4>Project Two</h4>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="project3.jpg" alt="Project 3">
-                        <h4>Project Three</h4>
-                    </div>
+        </div>
+    </section>
+    <section id="classes">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="classes-grid">
+                <div class="class-item">
+                    <img src="yoga.jpg" alt="Yoga Class">
+                    <h4>Yoga</h4>
+                    <p>Enhance your flexibility and mental clarity with our yoga sessions.</p>
+                </div>
+                <div class="class-item">
+                    <img src="cardio.jpg" alt="Cardio Class">
+                    <h4>Cardio</h4>
+                    <p>Boost your cardiovascular health with our high-energy cardio classes.</p>
+                </div>
+                <div class="class-item">
+                    <img src="strength.jpg" alt="Strength Training">
+                    <h4>Strength Training</h4>
+                    <p>Build muscle and increase your strength with guided strength training.</p>
                 </div>
             </div>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+        </div>
+    </section>
+    <section id="trainers">
+        <div class="container">
+            <h2>Meet Our Trainers</h2>
+            <div class="trainers-grid">
+                <div class="trainer">
+                    <img src="trainer1.jpg" alt="Trainer 1">
+                    <h4>John Doe</h4>
+                    <p>Expert in strength training and bodybuilding with 10 years of experience.</p>
+                </div>
+                <div class="trainer">
+                    <img src="trainer2.jpg" alt="Trainer 2">
+                    <h4>Jane Smith</h4>
+                    <p>Certified yoga instructor with a passion for holistic health.</p>
+                </div>
+                <div class="trainer">
+                    <img src="trainer3.jpg" alt="Trainer 3">
+                    <h4>Mike Johnson</h4>
+                    <p>Cardio and endurance specialist committed to helping you achieve your best.</p>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Creative Design Studio. All rights reserved.</p>
+            <p>&copy; 2024 Gymnasium. All rights reserved.</p>
         </div>
     </footer>
 </body>
