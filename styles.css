@@ -20,7 +20,7 @@ ul {
 
 /* Header */
 header {
-    background-color: #000;
+    background-color: #003366;
     color: #fff;
     padding: 1em 0;
     position: fixed;
@@ -65,7 +65,7 @@ header .cta a {
 
 /* Hero Section */
 #hero {
-    background: url('hero-background.jpg') no-repeat center center/cover;
+    background-color: #004080;
     color: #fff;
     text-align: center;
     height: 100vh;
@@ -114,14 +114,14 @@ h2 {
     margin: 0 auto;
 }
 
-/* Services Section */
-.services-grid {
+/* Programs Section */
+.programs-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.service {
+.program {
     flex: 1;
     min-width: 250px;
     max-width: 300px;
@@ -130,45 +130,21 @@ h2 {
     border: 1px solid #ddd;
     margin: 1em;
     border-radius: 10px;
+    background-color: #f5f5f5;
 }
 
-.service h3 {
+.program h3 {
     margin-top: 0;
 }
 
-/* Classes Section */
-.classes-grid {
+/* Faculty Section */
+.faculty-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.class-item {
-    flex: 1;
-    min-width: 250px;
-    max-width: 300px;
-    margin: 1em;
-    text-align: center;
-}
-
-.class-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.class-item h4 {
-    margin-top: 0.5em;
-}
-
-/* Trainers Section */
-.trainers-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.trainer {
+.faculty-member {
     flex: 1;
     min-width: 250px;
     max-width: 300px;
@@ -177,15 +153,39 @@ h2 {
     border: 1px solid #ddd;
     margin: 1em;
     border-radius: 10px;
+    background-color: #f5f5f5;
 }
 
-.trainer img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+.faculty-member h4 {
+    margin-top: 0.5em;
 }
 
-.trainer h4 {
+/* Admissions Section */
+#admissions p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 2em;
+}
+
+.admissions-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.admission-step {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.admission-step h4 {
     margin-top: 0.5em;
 }
 
@@ -209,7 +209,7 @@ input, textarea {
 }
 
 button {
-    background-color: #000;
+    background-color: #003366;
     color: #fff;
     padding: 1em;
     border: none;
@@ -220,7 +220,7 @@ button {
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #003366;
     color: #fff;
     text-align: center;
     padding: 1em 0;
